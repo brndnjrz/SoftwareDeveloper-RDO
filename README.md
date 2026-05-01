@@ -98,7 +98,7 @@ pip install streamlit pandas
 streamlit run app.py   
 ```
 
-#### 3. Access the dashboard
+#### 5. Access the dashboard
 - Open your browser to `http://localhost:8501`
 - Use the sidebar form to submit team updates
 - View all updates in the main dashboard
