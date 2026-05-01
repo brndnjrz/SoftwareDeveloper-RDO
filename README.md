@@ -78,12 +78,22 @@ The application automatically formats data for optimal display:
 
 ### Installation
 
-#### 1. Install required packages
+#### 1. Clone the repository
+```bash
+git clone git@github.com:brndnjrz/SoftwareDeveloper-RDO.git
+```
+
+#### 2. Move into the repository
+```bash
+cd SoftwareDeveloper-RDO
+```
+
+#### 3. Install required packages
 ```bash
 pip install streamlit pandas
 ```
 
-#### 2. Run the application
+#### 4. Run the application
 ```bash
 streamlit run app.py   
 ```
