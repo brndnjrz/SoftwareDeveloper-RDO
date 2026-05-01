@@ -55,13 +55,16 @@ streamlit run app.py
 
 ## 🗂️ Project Structure
 
-```
+```bash
 SoftwareDeveloper-RDO/
 ├── app.py
+├── components/
+│   ├── __init__.py
+│   └── team_update_form.py
 ├── data/
 │   └── updates.json
 ├── utils/
 │   └── data_handler.py
+├── requirements.txt
 └── README.md
-└── requirements.txt
 ```
