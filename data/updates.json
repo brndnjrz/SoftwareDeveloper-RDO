@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Brandon",
+    "mood": 7,
+    "update": "Finishing the dashboard layout",
+    "blockers": "Waiting on API access",
+    "timestamp": "2026-05-01T09:42:11.304812",
+    "timestamp_display": "05/01/2026 9:42AM"
+  },
+  {
+    "name": "Valerie",
+    "mood": 8,
+    "update": "Reviewing pull requests for the data handler module",
+    "blockers": "",
+    "timestamp": "2026-05-01T09:55:03.112847",
+    "timestamp_display": "05/01/2026 9:55AM"
+  },
+  {
+    "name": "Vivi",
+    "mood": 5,
+    "update": "Debugging a rendering issue on the team updates table",
+    "blockers": "Can't reproduce it locally, only shows in staging",
+    "timestamp": "2026-05-01T10:03:47.884201",
+    "timestamp_display": "05/01/2026 10:03AM"
+  },
+  {
+    "name": "Cristo",
+    "mood": 9,
+    "update": "Finished writing unit tests for data_handler.py",
+    "blockers": "",
+    "timestamp": "2026-05-01T10:15:22.567390",
+    "timestamp_display": "05/01/2026 10:15AM"
+  },
+  {
+    "name": "Frankie",
+    "mood": 4,
+    "update": "Trying to get the JSON file to persist correctly after redeployment",
+    "blockers": "File resets on every deploy, need to look into persistent storage",
+    "timestamp": "2026-05-01T10:31:58.209144",
+    "timestamp_display": "05/01/2026 10:31AM"
+  },
+  {
+    "name": "Sofia",
+    "mood": 6,
+    "update": "Updating the README with setup instructions and design decisions",
+    "blockers": "Waiting on final architecture decisions before I can finalize it",
+    "timestamp": "2026-05-01T10:48:36.774512",
+    "timestamp_display": "05/01/2026 10:48AM"
+  },
+  {
+    "name": "Derek",
+    "mood": 8,
+    "update": "Cleaning up the sidebar component and adding input placeholders",
+    "blockers": "",
+    "timestamp": "2026-05-01T11:02:14.330967",
+    "timestamp_display": "05/01/2026 11:02AM"
+  },
+  {
+    "name": "Yuna",
+    "mood": 6,
+    "update": "Researching whether to use session_state or re-fetch from JSON on each rerun",
+    "blockers": "Not sure which approach is more performant for this scale",
+    "timestamp": "2026-05-01T11:20:45.991023",
+    "timestamp_display": "05/01/2026 11:20AM"
+  }
+]
