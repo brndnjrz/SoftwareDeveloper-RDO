@@ -1,5 +1,7 @@
 # Team Insights Dashboard
 
+![Dashboard](screenshots/dashboard_view.png "Team Insights Dashboard")
+
 ## Overview
 A simple web application built with Streamlit that enables team members to submit daily check-ins and track team progress in real-time. Team members can share their current mood, work updates, and any blockers they're facing, while managers and teammates can view all updates in a centralized dashboard.
 
