@@ -22,8 +22,9 @@ if form_data:
 
 data = load_data()
 df = pd.DataFrame(data)
-
-st.subheader("Team Updates")
+df = df.rename(columns={"timestamp_display": "Submitted At"})
+df = df.drop(columns=["timestamp"])
+df.columns = df.columns.str.title()
 
 if df.empty:
     st.info("No updates yet")
