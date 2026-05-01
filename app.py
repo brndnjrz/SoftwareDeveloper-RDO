@@ -7,8 +7,8 @@ st.set_page_config(
     page_title="Team Insights Dashboard", 
     page_icon="💻", 
     layout="wide", 
-    initial_sidebar_state="expanded", 
-    menu_items=None)
+    initial_sidebar_state="expanded"
+    )
 
 st.title("Team Insights Dashboard")
 
@@ -21,12 +21,19 @@ if form_data:
     st.sidebar.success("Update submitted successfully")
 
 data = load_data()
-df = pd.DataFrame(data)
-df = df.rename(columns={"timestamp_display": "Submitted At"})
-df = df.drop(columns=["timestamp"])
-df.columns = df.columns.str.title()
 
-if df.empty:
-    st.info("No updates yet")
-else:
+if data:
+    df = pd.DataFrame(data)
+
+    if "timestamp" in df.columns:
+        df = df.drop(columns=["timestamp"])
+
+    if "timestamp_display" in df.columns:
+        df = df.rename(columns={"timestamp_display": "Submitted At"})
+
+    df.columns = df.columns.str.title()
+
     st.dataframe(df, use_container_width=True)
+
+else:
+    st.info("No updates yet — be the first to check in!")
